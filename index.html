@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+h<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>إهداء لأبي</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1a1a1a; /* خلفية داكنة لتبرز الألوان */
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .animated-text {
+            font-size: 3rem;
+            font-weight: bold;
+            /* إنشاء تدرج لوني */
+            background: linear-gradient(to right, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            /* حركة الألوان */
+            animation: rainbow 3s linear infinite;
+        }
+
+        @keyframes rainbow {
+            0% { background-position: 0% center; }
+            100% { background-position: 200% center; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="animated-text">
+        ابوي الغالي ♥ كم انت جميل يا ابي
+    </div>
+
+</body>
+</html>
